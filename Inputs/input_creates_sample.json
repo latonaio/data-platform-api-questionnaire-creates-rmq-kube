@@ -1,0 +1,43 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "QUESTIONNAIRE",
+	"api_type": "creates",
+	"Questionnaire": {
+		"Questionnaire": 1,
+		"QuestionnaireOwner": 401,
+		"QuestionnaireType": "TEST",
+		"QuestionnaireTemplate": "TEST",
+		"QuestionnaireDate": "2024-04-01",
+		"QuestionnaireTime": "14:13:52",
+		"Respondent": 10001,
+		"QuestionnaireObjectType": "EVENT",
+		"QuestionnaireObject": 1,
+		"CreationDate": "2024-04-01",
+		"CreationTime": "14:13:52",
+		"IsMarkedForDeletion": null,
+		"Item": [
+			{
+				"QuestionnaireItem": 1,
+				"QuestionnaireItemDescription": "一緒にお住まいの家族は何人ですか？（ご自身を１人として含めて回答してください）",
+				"QuestionnaireItemFormType": "0001",
+				"QuestionnaireItemReplyType": "0001",
+				"QuestionnaireItemReplyByYesNo": null,
+				"QuestionnaireItemReplyByNumber": 5,
+				"QuestionnaireItemReplyByText": "",
+				"CreationDate": "2024-04-01",
+				"CreationTime": "14:13:52",
+				"IsMarkedForDeletion": null
+			}
+		]
+	},
+	"api_schema": "DPFMQuestionnaireCreates",
+	"accepter": [
+		"Header"
+	]
+}
